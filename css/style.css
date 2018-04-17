@@ -1,8 +1,5 @@
 #container-back {
-  background-color: #cccbc6;
-  padding: 20px;
-  font-family: "Cantata One", sans-serif;
-  color: #3C3C3C;
+  padding: 1px;
 }
 
 #container {
@@ -39,6 +36,45 @@
   padding: 15px;
   margin: 15px;
   text-align: center;
-  line-height: 40px;
-  font-size: 20px;
+  font-size: 1.75em;
+  line-height: 1.618em;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Cantata One", sans-serif;
+    color: #3C3C3C;
+    background-color: #cccbc6;
+}
+ 
+h1{
+    font-size: 3em;
+}
+ 
+h2{
+    font-size: 2em;
+}
+ 
+p{
+    font-size: 1em;
+    line-height: 1.618em;
+}
+
+@media all and (min-width: 960px) {
+    body{
+        font-size: 18px;
+    }
+}
+ 
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 15px;
+    }
+}
+ 
+@media all and (max-width: 599px) and (min-width: 0px) {
+    body{
+        font-size: 12px;
+    }
+ 
 }
